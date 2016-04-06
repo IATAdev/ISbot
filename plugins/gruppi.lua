@@ -35,8 +35,8 @@ idscuola = -1001044592894
 
     if msg.chat.id == ADMIN_IS then
     	if msgtext:match('^/link ') and msgtext:match(' informatica') then
-    		if msgtext:match('(https://telegram.me/joinchat/%g+)') then
-    			link['informatica'] = msg.text:match('(https://telegram.me/joinchat/%g+)')
+    		if msgtext:match('(telegram.me/%g+)') then
+    			link['informatica'] = msg.text:match('(telegram.me/%g+)')
     			save_data('link.json', link)
     			sendMessage(msg.chat.id, 'Il link del gruppo Informatica è stato cambiato.')
     		else
@@ -52,8 +52,8 @@ idscuola = -1001044592894
     		end
     		
     	elseif msgtext:match('^/link ') and msgtext:match(' libero') then
-    		if msgtext:match('(https://telegram.me/joinchat/%g+)') then
-    			link['libero'] = msg.text:match('(https://telegram.me/joinchat/%g+)')
+    		if msgtext:match('(telegram.me/%g+)') then
+    			link['libero'] = msg.text:match('(telegram.me/%g+)')
     			save_data('link.json', link)
     			sendMessage(msg.chat.id, 'Il link del gruppo Libero è stato cambiato.')
     		else
@@ -69,8 +69,8 @@ idscuola = -1001044592894
     		end
     		
     	elseif msgtext:match('^/link ') and msgtext:match(' hentai') then
-    		if msgtext:match('(https://telegram.me/joinchat/%g+)') then
-    			link['hentai'] = msg.text:match('(https://telegram.me/joinchat/%g+)')
+    		if msgtext:match('(telegram.me/%g+)') then
+    			link['hentai'] = msg.text:match('(telegram.me/%g+)')
     			save_data('link.json', link)
     			sendMessage(msg.chat.id, 'Il link del gruppo Hentai è stato cambiato.')
     		else
@@ -86,8 +86,8 @@ idscuola = -1001044592894
     		end
     		
     	elseif msgtext:match('^/link ') and msgtext:match(' porno') then
-    		if msgtext:match('(https://telegram.me/joinchat/%g+)') then
-    			link['porno'] = msg.text:match('(https://telegram.me/joinchat/%g+)')
+    		if msgtext:match('(telegram.me/%g+)') then
+    			link['porno'] = msg.text:match('(telegram.me/%g+)')
     			save_data('link.json', link)
     			sendMessage(msg.chat.id, 'Il link del gruppo Porno è stato cambiato.')
     		else
@@ -103,8 +103,8 @@ idscuola = -1001044592894
     		end
     		
     	elseif msgtext:match('^/link ') and msgtext:match(' videogiochi') then
-    		if msgtext:match('(https://telegram.me/joinchat/%g+)') then
-    			link['videogiochi'] = msg.text:match('(https://telegram.me/joinchat/%g+)')
+    		if msgtext:match('(telegram.me/%g+)') then
+    			link['videogiochi'] = msg.text:match('(telegram.me/%g+)')
     			save_data('link.json', link)
     			sendMessage(msg.chat.id, 'Il link del gruppo Videogiochi è stato cambiato.')
     		else
@@ -120,8 +120,8 @@ idscuola = -1001044592894
     		end
     		
     	elseif msgtext:match('^/link ') and msgtext:match(' anime') then
-    		if msgtext:match('(https://telegram.me/joinchat/%g+)') then
-    			link['anime'] = msg.text:match('(https://telegram.me/joinchat/%g+)')
+    		if msgtext:match('(telegram.me/%g+)') then
+    			link['anime'] = msg.text:match('(telegram.me/%g+)')
     			save_data('link.json', link)
     			sendMessage(msg.chat.id, 'Il link del gruppo Anime è stato cambiato.')
     		else
@@ -137,8 +137,8 @@ idscuola = -1001044592894
     		end
     		
     	elseif msgtext:match('^/link ') and msgtext:match(' musica') then
-    		if msgtext:match('(https://telegram.me/joinchat/%g+)') then
-    			link['musica'] = msg.text:match('(https://telegram.me/joinchat/%g+)')
+    		if msgtext:match('(telegram.me/%g+)') then
+    			link['musica'] = msg.text:match('(telegram.me/%g+)')
     			save_data('link.json', link)
     			sendMessage(msg.chat.id, 'Il link del gruppo Musica è stato cambiato.')
     		else
@@ -154,8 +154,8 @@ idscuola = -1001044592894
     		end
     		
     	elseif msgtext:match('^/link ') and msgtext:match(' film') then
-    		if msgtext:match('(https://telegram.me/joinchat/%g+)') then
-    			link['film'] = msg.text:match('(https://telegram.me/joinchat/%g+)')
+    		if msgtext:match('(telegram.me/%g+)') then
+    			link['film'] = msg.text:match('(telegram.me/%g+)')
     			save_data('link.json', link)
     			sendMessage(msg.chat.id, 'Il link del gruppo Film è stato cambiato.')
     		else
@@ -171,8 +171,8 @@ idscuola = -1001044592894
     		end
     		
     	elseif msgtext:match('^/link ') and msgtext:match(' ot') then
-    		if msgtext:match('(https://telegram.me/joinchat/%g+)') then
-    			link['ot'] = msg.text:match('(https://telegram.me/joinchat/%g+)')
+    		if msgtext:match('(telegram.me/%g+)') then
+    			link['ot'] = msg.text:match('(telegram.me/%g+)')
     			save_data('link.json', link)
     			sendMessage(msg.chat.id, 'Il link del gruppo OT è stato cambiato.')
     		else
@@ -188,8 +188,8 @@ idscuola = -1001044592894
     		end
     		
     	elseif msgtext:match('^/link ') and msgtext:match(' scuola') then
-    		if msgtext:match('(https://telegram.me/joinchat/%g+)') then
-    			link['scuola'] = msg.text:match('(https://telegram.me/joinchat/%g+)')
+    		if msgtext:match('(telegram.me/%g+)') then
+    			link['scuola'] = msg.text:match('(telegram.me/%g+)')
     			save_data('link.json', link)
     			sendMessage(msg.chat.id, 'Il link del gruppo Scuola è stato cambiato.')
     		else
@@ -209,7 +209,7 @@ idscuola = -1001044592894
 	if msgtext:match('^/gruppi') then
 		if msg.chat.id == ADMIN_IS or msg.chat.id == idinformatica or msg.chat.id == idlibero or msg.chat.id == idhentai or msg.chat.id == idporno or msg.chat.id == idvideogiochi or msg.chat.id == idanime or msg.chat.id == idmusica or msg.chat.id == idfilm or msg.chat.id == idot or msg.chat.id == idscuola then
     	--local testo = 'GRUPPI IS\n\n- Informatica: '..controllo(informatica)..'\n- Libero (SPAM-BOT): '..controllo(libero)..'\n- Hentai: '..controllo(hentai)..'\n- Porno: '..controllo(porno)..'\n- Videogiochi: '..controllo(videogiochi)..'\n- Anime: '..controllo(anime)..'\n- Musica: '..controllo(musica)..'\n- Film: '..controllo(film)..'\n- OT (No BOT): '..controllo(ot)..'\n- Scuola: '..controllo(scuola)
-    	local testo = 'GRUPPI IS\n\n- [Informatica]('..controllo(informatica)..')\n- [Libero (SPAM-BOT)]('..controllo(libero)..')\n- [Hentai]('..controllo(hentai)..')\n- [Porno]('..controllo(porno)..')\n- [Videogiochi]('..controllo(videogiochi)..')\n- [Anime]('..controllo(anime)..')\n- [Musica]('..controllo(musica)..')\n- [Film]('..controllo(film)..')\n- [OT (No BOT)]('..controllo(ot)..')\n- [Scuola]('..controllo(scuola)..')'
+    	local testo = 'GRUPPI IS\n\n- [Informatica]('..controllo('informatica')..')\n- [Libero (SPAM-BOT)]('..controllo('libero')..')\n- [Hentai]('..controllo('hentai')..')\n- [Porno]('..controllo('porno')..')\n- [Videogiochi]('..controllo('videogiochi')..')\n- [Anime]('..controllo('anime')..')\n- [Musica]('..controllo('musica')..')\n- [Film]('..controllo('film')..')\n- [OT (No BOT)]('..controllo('ot')..')\n- [Scuola]('..controllo('scuola')..')'
     	sendMessage(msg.chat.id, testo, true, false, true)
 		end
 	elseif msg.chat.id == msg.from.id then
