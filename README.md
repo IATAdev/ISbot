@@ -1,9 +1,9 @@
 # ISbot
-Questo bot è stato sviluppato per aiutare la gestione dei gruppi IS
+Questo bot era stato sviluppato per aiutare la gestione dei gruppi IS
 
 Questo software è coperto da licenza BSD semplificata (a-là FreeBSD) consultabile [qui](https://github.com/IATAdev/ISbot/blob/master/LICENSE)
 
-##A cosa serve?
+## A cosa serve?
 IS BOT è un bot Telegram API scritto in LUA basato su [otouto](https://github.com/topkecleon/otouto)
 Le sue funzioni sono:
 - Messaggio di benvenuto 
@@ -13,7 +13,7 @@ Le sue funzioni sono:
 - Invia messaggi da parte dello staff su tutti i gruppi IS
 
 
-##Comandi previsti
+## Comandi previsti
 Questa è la lista:
 
 | Comando | Funzione |
@@ -26,9 +26,7 @@ Questa è la lista:
 | /link | Modifica la visibilità del link nel comando /gruppi oppure modifica il link (solo admin o gruppo admin) |
 | /broadcast | Invia un messaggio a tutti i gruppi IS (solo admin o gruppo admin) |
 
-##Sviluppatori
-Chiunque può contribuire a questo progetto.
+## Sviluppatori
+Il bot è sviluppato da Pilota. Puoi contatarlo via [Telegram](https://telegram.me/pilota).
 
-Il bot è sviluppato da Pilota. Puoi conttarlo via [Telegram](https://telegram.me/pilota).
-
-Per altre informazioni, contattare il responsabile del progetto [lollofra](https://github.com/lollofra) via [Telegram](https://telegram.me/lollofra) o [Twitter](https://twitter.com/Lorenzo_Fiocco).
+Per altre informazioni, contattare il responsabile del progetto [Lorenzo Fiocco](https://github.com/lollofra) via [Telegram](https://telegram.me/Lorenzo) o [Twitter](https://twitter.com/Lorenzo_Fiocco).
